@@ -30,3 +30,10 @@ JS
 - Utilizar el setTimeOut para el asicronismo
 
 - Importante preventDefault en los eventos
+
+
+## Drag
+![](public/images/drag.png)
+
+## Drop
+![](public/images/drop.png)
