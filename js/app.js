@@ -1,20 +1,19 @@
-const fill = document.querySelector('')
-const empties = document.querySelectorAll('empty')
+const fill = document.querySelector('.fill')
+const empties = document.querySelectorAll('.empty')
 
-fill.addEventListener('dragstart', )
-fill.addEventListener('dragend', )
+fill.addEventListener('dragstart',dragStart)
+fill.addEventListener('dragend',dragEnd)
 
 for(const empty of empties) {
 
 }
 
 function dragStart() {
-
-    setTimeout()
+    this.className += ' hold';
+    setTimeout(()=> (this.className = 'invisible'), 0);
 }
 
 function dragEnd() {
-    this.
 }
 
 function dragOver(e) {

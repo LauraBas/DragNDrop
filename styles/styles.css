@@ -28,11 +28,15 @@
   }
   
   .hold {
-    border: ;
+    border: solid gray 4px;
   }
   
   .hovered {
-    : dashed;
+    background: black;
+    border-style: dashed;
+  }
+  .invisible {
+    display: none;
   }
   
   @media (max-width: 800px) {
