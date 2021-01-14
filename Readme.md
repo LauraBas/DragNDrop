@@ -31,6 +31,9 @@ JS
 
 - Importante preventDefault en los eventos
 
+## GitHub Pages link
+
+https://laurabas.github.io/DragNDrop/
 
 ## Drag
 ![](public/images/drag.png)
