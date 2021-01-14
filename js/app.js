@@ -1,5 +1,5 @@
 const fill = document.querySelector('')
-const empties = document.querySelectorAll('')
+const empties = document.querySelectorAll('empty')
 
 fill.addEventListener('dragstart', )
 fill.addEventListener('dragend', )
