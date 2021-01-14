@@ -5,6 +5,7 @@ fill.addEventListener('dragstart',dragStart)
 fill.addEventListener('dragend',dragEnd)
 
 for(const empty of empties) {
+    
 
 }
 
@@ -14,6 +15,7 @@ function dragStart() {
 }
 
 function dragEnd() {
+    this.className = 'fill'
 }
 
 function dragOver(e) {
