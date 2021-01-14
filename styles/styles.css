@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: teal;
+  
+  }
+  
+  .empty {
+   display:inline-block;
+   height: 10em;
+   width: 10em;
+   margin: 0.5em;
+   border: 3px black solid;
+   background-color: white;
+  
+  }
+  
+  .fill {
+  
+    width: 150px;
+  
+  }
+  
+  .hold {
+    border: ;
+  }
+  
+  .hovered {
+    : dashed;
+  }
+  
+  @media (max-width: 800px) {
+  }
